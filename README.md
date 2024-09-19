@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/bento-grid-using-css-grid-FnVNjtMqMb)
 - Live Site URL: [Deploy](https://justcaiodev.github.io/Bento-grid/)
 
 ## My process
