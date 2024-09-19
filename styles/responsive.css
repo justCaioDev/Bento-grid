@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+    main {
+        padding-block: 0;
+        padding: 32px 14px;
+    }
+
+    .bento-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 200px 350px 700px 500px 300px 450px;
+        gap: 0;
+        row-gap: 40px;
+    }
+
+    .advertising-create-quicker, .advertising-social-media, .advertising-multi-accounts, .advertising-maintain, .advertising-schedule, .advertising-grow-followers, .advertising-faster-audience, .advertising-content-using-ai {
+        grid-column: 1/2;
+    }
+
+    .advertising-social-media {
+        grid-row: 1/2;
+    }
+
+    .advertising-multi-accounts {
+        grid-row: 2/3;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .advertising-maintain {
+        grid-row: 3/4;
+        justify-content: space-between;
+    }
+
+    .advertising-maintain img {
+        width: 420px;
+    }
+
+    .advertising-schedule {
+        grid-row: 4/5;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+    }
+
+    .advertising-grow-followers {
+        grid-row: 5/6;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .advertising-grow-followers img {
+        width: 350px;
+        height: auto;
+    }
+
+    .advertising-faster-audience {
+        grid-row: 6/7;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .advertising-faster-audience img {
+        width: 300px;
+    }
+
+    .advertising-create-quicker {
+        grid-row: 7/8;
+        justify-content: center;
+        padding: 28px;
+        gap: 28px;
+    }
+
+    .advertising-create-quicker img {
+        width: auto;
+        height: 70%;
+    }
+
+    .advertising-content-using-ai {
+        grid-row: 8/9;
+        justify-content: center;
+        gap: 20px;
+        padding: 28px;
+    }
+
+    .advertising-content-using-ai img {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .advertising-create-quicker img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .advertising-content-using-ai img {
+        height: auto;
+        width: 100%;
+    }
+
+    .advertising-maintain img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .social-media-title {
+        font-size: 3rem;
+    }
+    
+    .multi-accounts-title, .maintain-title, .grow-followers-title {
+        font-size: 2rem;
+    }
+
+    .content-using-ai-title {
+        font-size: 2.25rem;
+    }
+    
+    .advertising-schedule img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .advertising-maintain img, .advertising-grow-followers img {
+        width: 100%;
+    }
+}
